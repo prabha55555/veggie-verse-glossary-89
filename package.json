@@ -33,4 +33,16 @@
     "typescript": "^5.1.6",
     "vite": "^4.4.9"
   }
+  {
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:dev": "vite build --mode development",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    // ... keep your existing dependencies
+  }
+}
+
 }
